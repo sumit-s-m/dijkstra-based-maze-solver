@@ -1,0 +1,263 @@
+/* Fonts Imports */
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+body {
+    background-image: url(./images/space-background.jpg);
+}
+
+h2 {
+    align-items: center;
+}
+
+table {
+    table-layout: auto;
+}
+
+th {
+    background-color: rgb(46, 44, 44);
+    border: 1px solid #8d97b6;
+    color: #d62121 !important;
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+td {
+    min-width: 80px;
+    background-color: rgb(46, 44, 44);
+    border: 1px solid #8d97b6;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4%;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.title-section {
+    border-bottom: 2px solid #f8f8f8;
+    color: #ffffff;
+    font-family: "Aclonica", sans-serif;
+    width: 75%;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content-tab-1 {
+    border: 3px solid #8d97b6;
+    border-style: inset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-tab-2 {
+    border: 3px solid #8d97b6;
+    border-style: inset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-id-section {
+    text-align: center;
+}
+
+.dx-datagrid {
+    min-width: 800px;
+}
+
+.dx-data-row .td {
+    width: auto;
+}
+
+.dx-datagrid-text-content {
+    color: #d62121 !important;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.dashboard {
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.user-info {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: white;
+}
+
+.login {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.login-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.login-card {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: #ffffff;
+}
+
+.signup {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.signup-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.signup-card {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: #ffffff;
+}
+
+.update-profile {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.update-profile-card {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: #ffffff;
+}
+
+.update-profile-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.add-username {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.add-username-body {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: #ffffff;
+}
+
+.add-username-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.forgot-password {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.forgot-password-card {
+    border: 3px solid #a7a6b3;
+    border-style: inset;
+    background-color: #414246af;
+    color: #ffffff;
+}
+
+.password-reset-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.profile-text {
+    border: 3px solid #66b2b2;
+    border-style: inset;
+}
+
+.discription-text {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.neo-feed-text {
+    color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.neo-lookup-text {
+    color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.asteroid-id-text {
+    text-align: center;
+}
+
+.date-picker {
+    text-align: center;
+}
+
+.neo-feed-heading {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Aclonica", sans-serif;
+    width: 75%;
+}
+
+.neo-lookup-heading {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Aclonica", sans-serif;
+    width: 75%;
+}
+
+.neo-feed-description-text {
+    text-align: left;
+    color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.neo-lookup-description-text {
+    text-align: left;
+    color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.label-text {
+    color: #ee3131;
+    padding: 1%;
+}
+
+.delete-account-card {
+    border: 3px solid #a7a6b3;
+    background-color: #414246af;
+    border-style: inset;
+    color: #ffffff;
+    margin-top: 10%;
+    width: 60%;
+}
